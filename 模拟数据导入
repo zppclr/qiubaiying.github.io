@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-06-24T13:08:53.956Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.114 Safari/537.36" etag="S-rJ3ykePHR_9CiILe1Q" version="14.8.0" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2021-06-28T02:21:23.185Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.114 Safari/537.36" etag="D9xuzwf_Jn9R_xBeIwEG" version="14.8.0" type="github" pages="3">
   <diagram id="5stZ8fXbo0VmWbTocjw2" name="模拟数据导入">
     <mxGraphModel dx="1186" dy="698" grid="1" gridSize="15" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -143,6 +143,52 @@
         </mxCell>
         <mxCell id="IDmVxGq9Ky0MquYb7U88-18" value="结束" style="html=1;dashed=0;whitespace=wrap;shape=mxgraph.dfd.start" vertex="1" parent="IDmVxGq9Ky0MquYb7U88-1">
           <mxGeometry x="140" y="640" width="80" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="msTFfmeRZcFH7LDZ6MAo" name="生成报表数据">
+    <mxGraphModel dx="1186" dy="698" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="-QVDNt2qbXUkNO8PvYtR-0" />
+        <mxCell id="-QVDNt2qbXUkNO8PvYtR-1" parent="-QVDNt2qbXUkNO8PvYtR-0" />
+        <mxCell id="nMykjqvGf9ISvMJcYWl--0" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0.5;exitDx=0;exitDy=15;exitPerimeter=0;" edge="1" parent="-QVDNt2qbXUkNO8PvYtR-1" source="nMykjqvGf9ISvMJcYWl--1" target="nMykjqvGf9ISvMJcYWl--3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nMykjqvGf9ISvMJcYWl--1" value="开始" style="html=1;dashed=0;whitespace=wrap;shape=mxgraph.dfd.start" vertex="1" parent="-QVDNt2qbXUkNO8PvYtR-1">
+          <mxGeometry x="235" y="20" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="nMykjqvGf9ISvMJcYWl--16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="-QVDNt2qbXUkNO8PvYtR-1" source="nMykjqvGf9ISvMJcYWl--3" target="nMykjqvGf9ISvMJcYWl--11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nMykjqvGf9ISvMJcYWl--3" value="分析模拟数据与每日数据的绑定" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="-QVDNt2qbXUkNO8PvYtR-1">
+          <mxGeometry x="215" y="100" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="nMykjqvGf9ISvMJcYWl--18" value="是" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="-QVDNt2qbXUkNO8PvYtR-1" source="nMykjqvGf9ISvMJcYWl--11" target="nMykjqvGf9ISvMJcYWl--17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nMykjqvGf9ISvMJcYWl--19" value="否" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="-QVDNt2qbXUkNO8PvYtR-1" source="nMykjqvGf9ISvMJcYWl--11" target="nMykjqvGf9ISvMJcYWl--15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nMykjqvGf9ISvMJcYWl--11" value="距离上次数据快照的生成时间是否有三个月" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="-QVDNt2qbXUkNO8PvYtR-1">
+          <mxGeometry x="210" y="205" width="130" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="nMykjqvGf9ISvMJcYWl--14" value="结束" style="html=1;dashed=0;whitespace=wrap;shape=mxgraph.dfd.start" vertex="1" parent="-QVDNt2qbXUkNO8PvYtR-1">
+          <mxGeometry x="235" y="510" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="nMykjqvGf9ISvMJcYWl--20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0.5;entryDx=0;entryDy=-15;entryPerimeter=0;" edge="1" parent="-QVDNt2qbXUkNO8PvYtR-1" source="nMykjqvGf9ISvMJcYWl--15" target="nMykjqvGf9ISvMJcYWl--14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nMykjqvGf9ISvMJcYWl--15" value="计算上一天相关维度的统计数据" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="-QVDNt2qbXUkNO8PvYtR-1">
+          <mxGeometry x="90" y="380" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="nMykjqvGf9ISvMJcYWl--21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0.5;entryDx=0;entryDy=-15;entryPerimeter=0;" edge="1" parent="-QVDNt2qbXUkNO8PvYtR-1" source="nMykjqvGf9ISvMJcYWl--17" target="nMykjqvGf9ISvMJcYWl--14">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="280" y="500" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nMykjqvGf9ISvMJcYWl--17" value="计算全量的相关维度的统计数据" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="-QVDNt2qbXUkNO8PvYtR-1">
+          <mxGeometry x="335" y="380" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
